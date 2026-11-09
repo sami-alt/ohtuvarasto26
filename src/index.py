@@ -14,6 +14,7 @@ def main():
     kasittele_negatiivinen_lisays(mehua)
     kasittele_oluen_tyhjennys(olutta)
     kasittele_mehun_tyhjennys(mehua)
+    print(f"Liikaa argumentteja: {mehua.liikaa_argumentteja(1, 2, 3, 4, 5, 6)}")
 
 
 def luo_varastot():
