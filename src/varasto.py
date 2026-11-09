@@ -46,5 +46,10 @@ class Varasto:
 
         return maara
 
+
+    #    def liikaa_argumentteja(self,a, b, c, d,e,f):
+    #   return a + b + c + d + e + f
+
+
     def __str__(self):
         return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
